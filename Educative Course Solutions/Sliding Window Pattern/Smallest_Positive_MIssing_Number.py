@@ -20,6 +20,8 @@ def findMissingPositive(arr, size):
     # Note that 1 is subtracted
     # because index start
     # from 0 and positive numbers start from 1
+
+    #instead you can also use flag array to mark presense
     print(arr)
     for i in range(size):
         if (abs(arr[i]) - 1 < size):

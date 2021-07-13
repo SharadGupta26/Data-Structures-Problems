@@ -19,6 +19,8 @@ Example 3:
 Intervals: [[1,4], [2,6], [3,5]]
 Output: [[1,6]]
 Explanation: Since all the given intervals overlap, we merged them into one.
+
+https://leetcode.com/problems/merge-intervals/solution/
 """
 
 from __future__ import print_function

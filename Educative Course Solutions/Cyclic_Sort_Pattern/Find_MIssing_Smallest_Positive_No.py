@@ -65,6 +65,6 @@ def main():
   print(find_first_smallest_missing_positive([-3, 1, 5, 4, 2]))
   print(find_first_smallest_missing_positive([3, -2, 0, 1, 2]))
   print(find_first_smallest_missing_positive([3, 2, 5, 1]))
-
+  print(find_first_smallest_missing_positive([2, 1]))
 
 main()

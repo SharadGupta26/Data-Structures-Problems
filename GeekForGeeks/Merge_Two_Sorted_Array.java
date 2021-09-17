@@ -22,7 +22,7 @@ class GFG {
     static void merge(int m, int n)
     {
         int i = 0, j = 0, k = n - 1;
-        while (i <= k and j < m) {
+        while (i <= k && j < m) {
             if (arr1[i] < arr2[j])
                 i++;
             else {

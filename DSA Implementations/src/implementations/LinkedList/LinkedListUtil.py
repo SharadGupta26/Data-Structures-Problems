@@ -66,23 +66,23 @@ def deleteGivenKey(list, key) :
 driver code
 '''
 
-__name__ = '__main__'
-print('creating linked list')
-arr = list(map(int, input().split()))
-list = createLinkedList(arr)
-printLinkedList(list)
+if __name__ == '__main__' :
+    print('creating linked list')
+    arr = list(map(int, input().split()))
+    list = createLinkedList(arr)
+    printLinkedList(list)
 
-print('adding in beginning')
-insertInBeginning(list, int(input()))
-printLinkedList(list)
+    print('adding in beginning')
+    insertInBeginning(list, int(input()))
+    printLinkedList(list)
 
-print('inserting in end')
-insertInEnd(list, int(input()))
-printLinkedList(list)
+    print('inserting in end')
+    insertInEnd(list, int(input()))
+    printLinkedList(list)
 
-print('deleitng a key')
-deleteGivenKey(list, int(input()))
-printLinkedList(list)
+    print('deleitng a key')
+    deleteGivenKey(list, int(input()))
+    printLinkedList(list)
 
 
 

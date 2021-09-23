@@ -24,5 +24,10 @@ hs_err_pid*
 /bin/
 *.DS_Store
 *.classpath
-*.project
+/*.project
+.project
+
 *__pycache__/
+Leetcode_Problems/.project
+May_challenge/.project
+Leetcode_Problems/.project

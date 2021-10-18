@@ -1,4 +1,4 @@
-package implementations.heap;
+package implementations.Heap;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,5 +1,4 @@
-package implementations.heap;
-
+package implementations.Heap;
 import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Scanner;
